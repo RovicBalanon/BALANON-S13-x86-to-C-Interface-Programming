@@ -53,3 +53,4 @@ C release > ASM debug/release > C debug
 
 Screenshots:
 
+![2^20 C Debug](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/f3b2825e-0444-4eb9-b7e8-384c81ed0229)
