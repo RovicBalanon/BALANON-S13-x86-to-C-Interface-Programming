@@ -19,21 +19,21 @@ Below is an overview of the comparative execution time of the C and x86-64 kerne
 
 | n = 2^20     | C kernel  | ASM kernel | FASTER KERNEL |
 | ------------ | :-------: | :--------: | :-----------: |
-| Debug Mode   | 0.0083667 | 0.0075     | ASM           |
+| Debug Mode   | 0.0083667 | 0.0075000  | ASM           |
 | Release Mode | 0.0038333 | 0.0074333  | C             |
 | FASTER MODE  | Release   | Release    |XXXXXXXXXXXXXXX|
 
 
 | n = 2^24     | C kernel  | ASM kernel | FASTER KERNEL |
 | ------------ | :-------: | :--------: | :-----------: |
-| Debug Mode   | 0.1263667 | 0.122      | ASM           |
-| Release Mode | 0.0562    | 0.1262     | C             |
+| Debug Mode   | 0.1263667 | 0.1220000  | ASM           |
+| Release Mode | 0.0562000 | 0.1262000  | C             |
 | FASTER MODE  | Release   | Debug      |XXXXXXXXXXXXXXX|
 
 
 | n = 2^30     | C kernel  | ASM kernel | FASTER KERNEL |
 | ------------ | :-------: | :--------: | :-----------: |
-| Debug Mode   | 8.0889667 | 7.555      | ASM           |
+| Debug Mode   | 8.0889667 | 7.5550000  | ASM           |
 | Release Mode | 3.6650333 | 7.5949667  | C             |
 | FASTER MODE  | Release   | Debug      |XXXXXXXXXXXXXXX|
 
