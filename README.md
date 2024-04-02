@@ -51,6 +51,40 @@ C release > ASM debug/release > C debug
 
 
 
-Screenshots:
+# Screenshots w/ correctness check:
 
+
+## 2^20
+
+### C Debug
 ![2^20 C Debug](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/f3b2825e-0444-4eb9-b7e8-384c81ed0229)
+### C Release
+![2^20 C Release](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/305aed76-61ad-4de3-a445-c06d7e623cd0)
+### ASM Debug
+![2^20 ASM Debug](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/93661099-29a5-4cf0-bc8b-048b059e3767)
+### ASM Release
+![2^20 ASM Release](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/a5688a8d-6922-4754-8be2-b6beb69967a8)
+
+
+## 2^24
+
+### C Debug
+![2^24 C Debug](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/6f4279df-5a56-42af-8c69-d2bb37574c79)
+### C Release
+![2^24 C Release](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/f808e1c3-de86-480a-8930-c2240085fa72)
+### ASM Debug
+![2^24 ASM Debug](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/8b9eda05-4323-4daa-b4e4-958665ef1f66)
+### ASM Release
+![2^24 ASM Release](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/05309e92-bc18-4f53-9240-b0868e0a7297)
+
+
+## 2^24
+
+### C Debug
+![2^30 C Debug](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/4891dd10-fbe8-4c84-b618-307e8357f7d1)
+### C Release
+![2^30 C Release](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/37b156ca-a40e-4c7d-b40b-694d0a4295a2)
+### ASM Debug
+![2^30 ASM Debug](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/586b1c35-9369-4c13-9a6d-13dfc898f80a)
+### ASM Release
+![2^30 ASM Release](https://github.com/RovicBalanon/BALANON-S13-x86-to-C-Interface-Programming/assets/134363083/1a5a8327-e1de-4442-992e-56008c8a879d)
