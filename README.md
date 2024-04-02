@@ -5,8 +5,11 @@ This is a machine project on x86-64 to C interface programming with C and ASM ke
 Kernel Specifications: Perform a dot product between vector A and vector B (double-precision floats), then place the result in sdot.
 Initializations: 
 Vector A = 0.001 and Vector B = 0.1 for their first elements. Add 0.001 and 0.1 to Vector A and B to get succeeding elements, respectively.
+
 (Vector A = {0.001, 0.002, 0.003,...} and Vector B = {0.1, 0.2, 0.3,...})
+
 Variable n determines up to which vector element position to perform the dot product with, effectively making n the vector size.
+
 (If n = 3, dotProduct = (0.001*0.1)+(0.002*0.2)+(0.003*0.3))
 
 Below is an overview of the comparative execution time of the C and x86-64 kernels on debug and release modes, with a short analysis of each performance.
