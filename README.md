@@ -1,11 +1,14 @@
 # BALANON-S13-x86-to-C-Interface-Programming
 
-This is a machine project on x86-64 to C interface programming, where C and ASM kernels are 
+This is a machine project on x86-64 to C interface programming with C and ASM kernels.
 
+Kernel Specifications: Perform a dot product between vector A and vector B (double-precision floats), then place the result in sdot.
+Initializations: Vector A = 0.001 and Vector B = 0.1 for their first elements. Add 0.001 and 0.1 to Vector A and B to get succeeding elements, respectively:
+                 Vector A = {0.001, 0.002, 0.003,...} and Vector B = {0.1, 0.2, 0.3,...}
+                 Variable n determines up to which vector element position to perform the dot product with, effectively making n the vector size.
+                 If n = 3, dotProduct = (0.001*0.1)+(0.002*0.2)+(0.003*0.3)
 
-
-
-This document is an overview of the comparative execution time of C and x86-64 kernels on debug and release modes, with a short analysis of each performance.
+Below is an overview of the comparative execution time of the C and x86-64 kernels on debug and release modes, with a short analysis of each performance.
 
 
 # Average Execution Times of C and ASM kernels on Debug and Release Modes (tested 30 times each):
@@ -23,6 +26,7 @@ This document is an overview of the comparative execution time of C and x86-64 k
 | Release Mode | 0.0562    | 0.1262     | C             |
 | FASTER MODE  | Release   | Debug      |XXXXXXXXXXXXXXX|
 
+
 | n = 2^30     | C kernel  | ASM kernel | FASTER KERNEL |
 | ------------ | :-------: | :--------: | :-----------: |
 | Debug Mode   | 8.0889667 | 7.555      | ASM           |
@@ -38,7 +42,7 @@ However, Debug mode is faster than Release mode with the ASM kernel, except for 
 This is unexpected because Release mode should be generally faster than Debug mode. Possible explanations could be in the compiler settings or optimization levels of the release mode. It is important to note that both of their execution times with the ASM kernel are very close to each other, unlike when using a C kernel. This suggests that there is a small difference in choosing either mode when running ASM kernels.
 
 Generally, C is slower than ASM in Debug mode. 
-This is because C, a high-level language, requires additional memory and space usage to provide features that can simplify programming. On the other hand, a low-level language like Assembly grants direct access to the CPU which reduces and minimizes runtime and abstraction overhead, effectively cutting out the middleman.
+This is because C, a high-level language, requires additional memory and space usage to provide features that can simplify programming. On the other hand, a low-level language like Assembly grants direct access to the CPU which reduces and minimizes execution time and abstraction overhead, effectively cutting out the middleman.
 
 However, C is generally faster than ASM in Release mode, which is unexpected.
 ASM should be especially faster than C in Release mode, where speed and efficiency are prioritized. It is plausible that the ASM function is not optimized enough to outperform the C function. It is also important to remember that the ASM execution times for both modes are very close to each other, which could mean that the ASM function does not fully benefit from the execution speed increase that C had from Release mode.
@@ -48,10 +52,7 @@ C release > ASM debug/release > C debug
 
 
 
-
-
-
-# Screenshots w/ correctness check:
+# Terminal Screenshots w/ Correctness Check (C):
 
 
 ## 2^20
