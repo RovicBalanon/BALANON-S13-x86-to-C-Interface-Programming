@@ -52,7 +52,7 @@ C release > ASM debug/release > C debug
 
 
 
-# Terminal Screenshots w/ Correctness Check (C):
+# Output Screenshots w/ Correctness Check (C):
 
 
 ## 2^20
